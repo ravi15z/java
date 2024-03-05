@@ -9,7 +9,8 @@ public class JavaGitApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JavaGitApplication.class, args);
 		StringPr pr = new StringPr();
-		pr.show();
+		pr.objectS();
+		// pr.show();
 	}
 
 }
